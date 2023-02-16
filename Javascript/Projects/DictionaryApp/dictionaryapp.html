@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="sheet.css">
+</head>
+<body class="home">
+  <div class="container" style="background-color: dimgray;">
+        <marquee behavior="slide" direction="up" scrollamount="20px"><h1 class="words">ENGLISH DICTIONARY</h1></marquee>
+        <marquee behavior="slide" direction="up" scrollamount="20px"><h3 class="meaning"></h3></marquee> 
+      <div class="good">  
+        <ul>
+          <li><a href="#index.html">words</a></li>
+          <li><a href="#meaning">meaning</a></li>
+        </ul>
+      </div>
+  </div>
+  <button onclick="getQuote()" id="btn">enter word</button>
+  <button onclick="getQuote()" id="btn btn-primary" id="input">search for meaning</button>
+  <p id="word"></p>
+  <p id="definiton"></p>
+  <audio src="" controls="" id="audio">speak</audio>
+  <p id="error"></p>
+</body>
+</html>
